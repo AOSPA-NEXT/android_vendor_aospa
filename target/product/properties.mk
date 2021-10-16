@@ -29,3 +29,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.launcher.blur.appLaunch=0
 
+# Enable dex2oat64 to do dexopt
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    dalvik.vm.dex2oat64.enabled=true
